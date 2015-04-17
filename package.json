@@ -1,0 +1,26 @@
+{
+  "name": "frontend-awesome-typescript",
+  "version": "0.1.0",
+  "description": "Demonstration of TypeScript and Browserify",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Swingline0",
+  "license": "GPL",
+  "devDependencies": {
+    "browserify": "^9.0.7",
+
+    "gulp": "^3.8.11",
+    "gulp-ignore": "^1.2.1",
+    "gulp-notify": "^2.2.0",
+    "tsify": "dpogue/tsify#ts1.5-alpha",
+    "typescript": "^1.5.0-alpha",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.1.0"
+  },
+  "dependencies": {
+    "angular": "^1.3.15",
+    "jquery": "^2.1.3"
+  }
+}
